@@ -4,7 +4,9 @@
   "description": "playground for ...",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "postcss": "postcss src/*.css -o docs/style.css -w",
+    "lite-server": "lite-server --baseDir='docs'",
+    "test": "npm run lite-server | npm run postcss"
   },
   "repository": {
     "type": "git",
@@ -12,8 +14,17 @@
   },
   "author": "dadadadev",
   "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^7.1.1",
+    "cssnano": "^3.10.0",
+    "lite-server": "^2.3.0",
+    "postcss-cli": "^4.0.0",
+    "postcss-custom-properties": "^6.0.1",
+    "postcss-import": "^10.0.0",
+    "postcss-nested": "^2.0.2"
+  },
   "bugs": {
     "url": "https://github.com/dadadadev/playground_1/issues"
   },
-  "homepage": "https://github.com/dadadadev/playground_1#readme"
+  "homepage": "https://github.com/dadadadev/playground_1/"
 }

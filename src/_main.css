@@ -1,0 +1,13 @@
+/* import from var */
+@import "var/_color.css";
+
+/* import from base */
+@import "base/_base.css";
+
+h1 {
+  color: var(--color);
+}
+
+div {
+  display: flex;
+}

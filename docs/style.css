@@ -1,0 +1,16 @@
+/* import from var */
+/* import from base */
+body {
+  font-size: 25px;
+}
+body h1 {
+    font-size: 50px;
+  }
+h1 {
+  color: blue;
+}
+div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
