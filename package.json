@@ -1,0 +1,19 @@
+{
+  "name": "playground_1",
+  "version": "1.0.0",
+  "description": "playground for ...",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dadadadev/playground_1.git"
+  },
+  "author": "dadadadev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dadadadev/playground_1/issues"
+  },
+  "homepage": "https://github.com/dadadadev/playground_1#readme"
+}
