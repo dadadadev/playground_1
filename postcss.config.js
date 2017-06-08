@@ -5,5 +5,5 @@ module.exports = {
     'postcss-custom-properties': {},
     'autoprefixer': {},
     //'cssnano': { autoprefixer: false }
-  }
+  },
 };
