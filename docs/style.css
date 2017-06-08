@@ -455,27 +455,28 @@ template {
 
 /* import from var */
 
+/* @import "_color.css"; */
+
 /* import from base */
 
-body {
-  font-size: 25px;
-}
-
-body h1 {
-    font-size: 50px;
-  }
-
 html {
+  color: #1f1b1a;
   font-family: Futura,Avenir,sans-serif;
 }
 
-.title {
-  background-color: #ccc;
+.header {
+  height: 80px;
+  width: 100%;
+  background-color: #e7d9c0;
+  position: relative;
 }
 
-.title__description {
-    color: white;
-  }
+.header__title {
+  position: absolute;
+  top: 20px;
+  text-align: center;
+  vertical-align: middle;
+}
 
 ul {
   list-style: none;

@@ -4,21 +4,25 @@
 @import "_normalize.css";
 
 /* import from var */
-@import "var/_color.css";
+/* @import "_color.css"; */
 
 /* import from base */
-@import "base/_base.css";
+@import "_base.css";
 
 
-html {
-  font-family: Futura,Avenir,sans-serif;
+
+.header {
+  height: 80px;
+  width: 100%;
+  background-color: #e7d9c0;
+  position: relative;
 }
 
-.title {
-  background-color: #ccc;
-  &__description {
-    color: white;
-  }
+.header__title {
+  position: absolute;
+  top: 20px;
+  text-align: center;
+  vertical-align: middle;
 }
 
 ul {
