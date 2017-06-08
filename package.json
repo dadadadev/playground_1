@@ -4,7 +4,7 @@
   "description": "playground for ...",
   "main": "index.js",
   "scripts": {
-    "postcss": "postcss src/*.css -o docs/style.css -w",
+    "postcss": "postcss src/_main.css -o docs/style.css -w",
     "lite-server": "lite-server --baseDir='docs'",
     "test": "npm run lite-server | npm run postcss"
   },
